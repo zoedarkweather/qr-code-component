@@ -34,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned how to make a QR code accessible, by ensuring there is also a link to follow and that there is alt text explainging that it is a QR code and where it leads.
+I learned how to make a QR code accessible, by ensuring there is also a link to follow and that there is alt text explaining that it is a QR code and where it leads.
 
 ### Continued development
 
