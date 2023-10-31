@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9375rem;
+    font-family: 'Outfit', sans-serif;
+    color: var(--grayish-blue);
+    background-color: var(--light-gray);
+}
+
+h2 {
+    margin-block: 1em;
+    color: var(--dark-blue);
+}
+
+main {
+    padding: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 1em;
+}
+
+p {
+    margin-inline: 1.5em;
+}
+
+.attribution {
+    margin-top: 2em;
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--dark-blue);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.screenreader-only {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.qr-code {
+    border-radius: 1em;
+}
+
+.wrapper {
+    width: 85%;
+    max-width: 320px;
+    max-width: 21em;
+}
